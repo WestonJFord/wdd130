@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Darumadrop+One&family=Sigmar&display=swap');
+
+:root {
+    --primary-color: #0095E0;
+    --secondary-color: #E77813;
+    --accent1-color: #FBF001;
+    --accent2-color: #846580;
+
+    --heading-font: 'Sigmar';
+    --paragraph-font: 'Acme';
+
+    --nav-background-color: #000000;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #000000;
+    --nav-hover-background-color: #000000;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 20;
+}
