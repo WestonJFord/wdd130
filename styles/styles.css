@@ -9,14 +9,8 @@ main {
     max-width: 720px;
     
 }
-
 aside {
-    display: flow-root;
-    margin: 1rem;
-    padding: 1rem;
-    border: 1rem;
-    background-color: orange;
-    color: blue;
+    width: 30em;
 }
 aside img {
     width: 200px;
@@ -48,6 +42,9 @@ p {
 footer {
     margin-top: 10px;
     border-top: 1px solid blue;
+}
+ul {
+    width: 20rem;
 }
 
 /* Class Selectors */
