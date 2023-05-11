@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Darumadrop+One&family=Sigmar&display=swap');
+
+:root {
+    --primary-color: #0095E0;
+    --secondary-color: #E77813;
+    --accent1-color: #FBF001;
+    --accent2-color: #846580;
+
+    --heading-font: 'Sigmar';
+    --paragraph-font: 'Acme';
+
+    --nav-background-color: #0095E0;
+    --nav-link-color: #E77813;
+    --nav-hover-link-color: #FBF001;
+    --nav-hover-background-color: #846580;
+}
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960;
+    padding: 20;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color)
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+body {
+    max-width: 50rem;
+}
+section img {
+    max-width: 10rem;
+}
+.hero {
+    max-width: 30rem;
+}
