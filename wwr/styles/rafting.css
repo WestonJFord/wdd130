@@ -66,6 +66,13 @@ body {
 section img {
     max-width: 10rem;
 }
-.hero {
-    max-width: 30rem;
+
+footer a {
+    text-decoration: none;
+}
+.hero img {
+    display: block;
+    /* position: absolute; */
+    width: 100%;
+    height: auto;
 }
