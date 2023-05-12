@@ -14,65 +14,68 @@
     --nav-hover-link-color: #FBF001;
     --nav-hover-background-color: #846580;
 }
-
 * {
     margin: 0 auto;
 }
-
 body {
     font-family: var(--paragraph-font);
-    max-width: 960;
+    max-width: 720;
     padding: 20;
+    margin: 0 auto;
 }
-
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-}
-
 header {
     padding: 20px;
     background-color: var(--accent1-color);
 }
-
+.hero img {
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+h1 {
+    position: relative;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+article {
+    position: absolute;
+    background-color: var(--primary-color);
+}
+.hero article img {
+    float: right;
+    max-width: 20rem;
+}
 p {
     padding: 25px;
 }
-
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
 }
-
 nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
     padding: 1rem;
 }
-
 nav a:link, nav a:visited {
     color: var(--nav-link-color)
 }
-
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-body {
+main {
     max-width: 50rem;
 }
-section img {
-    max-width: 10rem;
-}
-
 footer a {
     text-decoration: none;
-}
-.hero img {
-    display: block;
-    /* position: absolute; */
-    width: 100%;
-    height: auto;
 }
