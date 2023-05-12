@@ -13,7 +13,13 @@
     --nav-link-color: #E77813;
     --nav-hover-link-color: #FBF001;
     --nav-hover-background-color: #846580;
+
+    --primary-background-color: #0095E080;
+    --secondary-background-color: #E7781380;
+    --accent1-background-color: #FBF00180;
+    --accent2-background-color: #84658080;
 }
+
 * {
     margin: 0 auto;
 }
@@ -37,20 +43,28 @@ header {
     right: 0;
 }
 h1 {
-    position: relative;
+    position: absolute;
     text-align: center;
+    /* top: 200; */
     left: 0;
     right: 0;
     font-family: var(--heading-font);
     color: var(--primary-color);
+    background-color: var(--accent2-background-color);
+
 }
-article {
+.hero article {
     position: absolute;
-    background-color: var(--primary-color);
+    top: 450px;
+    background-color: var(--accent1-background-color);
+    max-width: 750px;
+    min-width: 150px;
+    /* opacity: .75; */
 }
 .hero article img {
     float: right;
-    max-width: 20rem;
+    position: relative;
+    max-width: 300px;
 }
 p {
     padding: 25px;
