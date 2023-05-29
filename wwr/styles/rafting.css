@@ -110,9 +110,6 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
-main {
-    /* max-width: 1024px; */
-}
 footer a {
     text-decoration: none;
 }
