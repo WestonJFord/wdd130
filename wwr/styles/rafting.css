@@ -10,9 +10,9 @@
     --paragraph-font: 'Acme';
 
     --nav-background-color: #0095E0;
-    --nav-link-color: #E77813;
-    --nav-hover-link-color: #FBF001;
-    --nav-hover-background-color: #846580;
+    --nav-link-color: #FBF001;
+    --nav-hover-link-color: #0095E0;
+    --nav-hover-background-color: #FBF001;
 
     --primary-background-color: #0095E080;
     --secondary-background-color: #E7781380;
