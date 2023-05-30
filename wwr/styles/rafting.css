@@ -139,6 +139,12 @@ footer a {
 #adventures {
     text-align: center;
 }
+section {
+    border: 12px ridge var(--primary-color);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 10px;
+}
 footer {
     /* max-width: max-content; */
     display: flex;
