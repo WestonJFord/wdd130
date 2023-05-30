@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Aoboshi+One&family=Darumadrop+One&family=Sigmar&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Aoboshi One';
+}
+h1 {
+    margin: 20px;
+    font-size: larger;
+    text-align: center;
+}
+form {
+    width: 500px;
+    display: grid;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 12px ridge maroon;
+    border-radius: 1rem;
+    background-color: aquamarine;
+}
+fieldset {
+    display: grid;
+    gap: .5rem;
+    /* grid-template-columns: repeat(auto-fit, auto); */
+    grid-template-areas:
+    ". .";
+}
+legend {
+    color: maroon;
+    font-size: large;
+}
+label {
+    color: maroon;
+    font-size: small;
+    text-align: right;
+    padding-right: 1rem;
+}
+input {
+    color: blue;
+}
+input[type="checkbox"] {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: bottom;
+}
+button {
+    color: green;
+}
+select {
+    color: purple;
+}
+textarea {
+    color: orange;
+}

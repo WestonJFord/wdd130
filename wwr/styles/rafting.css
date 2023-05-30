@@ -20,9 +20,6 @@
     --accent2-background-color: #84658080;
 }
 
-* {
-    /* margin: 0 auto; */
-}
 body {
     font-family: var(--paragraph-font);
     max-width: 1024px;
