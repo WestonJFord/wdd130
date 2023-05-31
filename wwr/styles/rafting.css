@@ -22,7 +22,8 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 1600px;
+    text-shadow: 1px 1px .5px var(--secondary-color);
+    max-width: 1024px;
     /* padding: 20px; */
     margin: 0 auto;
     text-align: center;
@@ -48,12 +49,13 @@ header img {
     width: 100%;
     /* max-width: 1024px; */
     height: auto;
-    /* position: absolute; */
     left: 0;
     right: 0;
 }
 .hero h1 {
     position: absolute;
+    margin: 2rem auto;
+    max-width: 1024px;
 }
 h1 {
     /* text-align: center; */
@@ -154,6 +156,7 @@ section, form {
     padding-bottom: 1rem;
     margin: 1rem;
     box-sizing: border-box;
+    /* z-index: 2; */
 }
 footer {
     /* max-width: max-content; */
@@ -230,7 +233,7 @@ button {
     margin-top: .5rem;
     margin-bottom: .25rem;
     max-width: 50%;
-    text-indent: 10%;
     font-family: var(--paragraph-font);
     font-size: large;
+    color: black;
 }
