@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>About Us</title>
-    <meta name="description" content="White water rafting about page">
+    <title>Contact</title>
+    <meta name="description" content="White water rafting contact page">
     <meta name="author" content="Weston Ford">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -19,49 +19,62 @@
             </nav>
         </header>
         <main>
-            <div class="hero">
-                <h1>
-                    Dry Oar
-                </h1>
-                <img src="images/background.png" alt="background image">
-                <article>
-                    <img src="images/client-img.png" alt="client image">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, voluptatibus explicabo. Maxime rerum quasi illo doloribus, saepe itaque porro quae, incidunt necessitatibus molestias nisi, quos blanditiis repellat pariatur impedit temporibus?
-                    </p>
-                </article>
-            </div>
-            <section id="history">
-                <h2 class="heading">History</h2>
-                <p class="p1">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure assumenda tenetur facilis, perspiciatis natus quis molestias quos numquam dicta expedita totam impedit similique amet eveniet! Perspiciatis quod fuga excepturi sunt!</p>
-                <img src="images/history.jpg" alt="history" class="image">
-                <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt reiciendis quaerat quibusdam placeat, dicta commodi repellat, dignissimos aspernatur delectus hic iure modi a vero alias ex at quasi esse voluptate?</p>
+            <section id="company-info">
+                <h2>Company Information</h2>
+                <div>
+                    <p>Adress: 42 Wallaby Way, Sydney</p>
+                    <p>Phone Number: 555-2368</p>
+                    <p>email: dryoar@whitewater.com</p>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d696.7008658234574!2d151.20805463345832!3d-33.83587612704349!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1685497377833!5m2!1sen!2sus" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>
-            <section id="adventures">
-                <h2>Adventure Awaits You!</h2>
+            <section id="employees">
+                <h2>Employees</h2>
                 <div>
                     <figure>
-                        <img src="images/adventure-1.jpg" alt="adventure-1">
-                        <figcaption>Rapids!</figcaption>
+                        <img src="images/weston.webp" alt="weston">
+                        <figcaption>Weston</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/adventure-2.jpg" alt="adventure-2">
-                        <figcaption>More rapids!</figcaption>
+                        <img src="images/emily.webp" alt="emily">
+                        <figcaption>Emily</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/adventure-3.jpg" alt="adventure-3">
-                        <figcaption>Even more rapids!</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-4.jpg" alt="adventure-4">
-                        <figcaption>Wow this is so fun!</figcaption>
-                    </figure>
-                    <figure>
-                        <img src="images/adventure-5.jpg" alt="adventure-5">
-                        <figcaption>Too many rapids!</figcaption>
+                        <img src="images/gerald.jpg" alt="gerald">
+                        <figcaption>Gerald</figcaption>
                     </figure>
                 </div>
             </section>
+            <form id="contact-form">
+                <h2>Contact Form</h2>
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+                    <label for="name">Your Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Jon Doe">
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email" placeholder="jondoe@whitewater.com">
+                </fieldset>
+                <fieldset>
+                    <legend>Reason For Contact</legend>
+                    <label for="general-inquiry">General Inquiry</label>
+                    <input type="radio" name="contact-reason" id="general-inquiry">
+                    <label for="reservation-question">Reservation Question</label>
+                    <input type="radio" name="contact-reason" id="reservation-question">
+                    <label for="website-suggestion">Website Suggestion</label>
+                    <input type="radio" name="contact-reason" id="website-suggestion">
+                </fieldset>
+                <fieldset>
+                    <legend>Description</legend>
+                    <label for="message">Your Message Here:</label>
+                    <textarea name="message" id="message" cols="38" rows="10" placeholder="Dear Dry Oar..."></textarea>
+                </fieldset>
+                <div>
+                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+                <button>Submit Contact Form</button>
+                
+            </form>
         </main>
         <footer>
             <p>©2023 Dry Oar, Weston Ford</p>

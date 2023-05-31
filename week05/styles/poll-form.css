@@ -26,8 +26,7 @@ fieldset {
     display: grid;
     gap: .5rem;
     /* grid-template-columns: repeat(auto-fit, auto); */
-    grid-template-areas:
-    ". .";
+    grid-template-columns: 1fr 1fr;
 }
 legend {
     color: maroon;

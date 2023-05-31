@@ -25,6 +25,7 @@ body {
     max-width: 1600px;
     /* padding: 20px; */
     margin: 0 auto;
+    text-align: center;
 }
 header {
     padding: 20px;
@@ -53,7 +54,7 @@ header img {
 }
 h1 {
     position: absolute;
-    text-align: center;
+    /* text-align: center; */
     /* top: 320px; */
     left: 0;
     right: 0;
@@ -82,7 +83,8 @@ h1 {
     max-width: 250px;
 }
 p {
-    padding: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 nav {
     /* height: 56px; */
@@ -109,6 +111,10 @@ nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+footer {
+    text-align: right;
+    padding-right: 0;
+}
 footer a {
     text-decoration: none;
 }
@@ -118,7 +124,7 @@ footer a {
 .image {grid-area: img}
 #history {
     /* max-width: 200px; */
-    text-align: center;
+    /* text-align: center; */
     display: grid;
     grid-template-areas:
         ". heading ."
@@ -137,10 +143,11 @@ footer a {
     width: 250px;
 }
 #adventures {
-    text-align: center;
+    /* text-align: center; */
 }
 section {
     border: .5rem ridge var(--primary-color);
+    background-color: #FBF001;
     padding-bottom: 1rem;
     margin: 1rem;
 }
@@ -153,4 +160,74 @@ footer {
 }
 footer img {
     max-width: 50px;
+}
+#company-info {
+    /* max-width: 800px; */
+    /* text-align: center; */
+}
+#employees div {
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+}
+#employees img {
+    /* flex-shrink: 1; */
+    max-width: 100%;
+    height: auto;
+}
+form {
+    width: 500px;
+    display: grid;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 12px ridge var(--primary-color);
+    border-radius: 1rem;
+    background-color: var(--accent1-color);
+    box-sizing: border-box;
+}
+fieldset {
+    display: grid;
+    gap: .5rem;
+    /* grid-template-columns: repeat(auto-fit, auto); */
+    grid-template-columns: 1fr 1fr;
+    /* padding-right: 1px; */
+}
+legend {
+    /* color: var(--secondary-color); */
+    font-size: large;
+}
+label {
+    /* color: maroon; */
+    font-size: small;
+    text-align: right;
+    /* padding-right: 1rem; */
+}
+input {
+    /* color: blue; */
+}
+input[type="radio"], input[type="checkbox"] {
+    width: 1rem;
+    height: auto;
+    margin: 0;
+}
+input[type="checkbox"] {
+    margin-top: .5rem;
+}
+button {
+    color: var(--secondary-color);
+}
+select {
+    color: var(--accent2-color);
+}
+textarea, input {
+    color: var(--secondary-color);
+    resize: none;
+}
+button {
+    padding: .25rem;
+    margin: auto;
+    margin-top: .5rem;
+    margin-bottom: .25rem;
+    max-width: 50%;
 }
