@@ -52,8 +52,10 @@ header img {
     left: 0;
     right: 0;
 }
-h1 {
+.hero h1 {
     position: absolute;
+}
+h1 {
     /* text-align: center; */
     /* top: 320px; */
     left: 0;
