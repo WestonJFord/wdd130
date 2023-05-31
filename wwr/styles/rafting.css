@@ -210,13 +210,14 @@ button, #call-to-action {
     left: 0;
     right: 0;
     top: 22rem;
+    max-width: fit-content;
     font-size: 2rem;
     background-color: var(--accent1-color);
     text-shadow: 2px 2px 1px var(--secondary-color);
 }
 #trips {
     display: grid;
-    grid-template-columns: 3fr 400px;
+    grid-template-columns: 3fr 2fr;
 }
 table {
     border-collapse: collapse;
