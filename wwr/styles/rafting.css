@@ -237,3 +237,7 @@ button {
     font-size: large;
     color: black;
 }
+#trips {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
