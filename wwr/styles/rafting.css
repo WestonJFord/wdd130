@@ -145,11 +145,13 @@ footer a {
 #adventures {
     /* text-align: center; */
 }
-section {
+section, form {
     border: .5rem ridge var(--primary-color);
+    border-radius: .8rem;
     background-color: #FBF001;
     padding-bottom: 1rem;
     margin: 1rem;
+    box-sizing: border-box;
 }
 footer {
     /* max-width: max-content; */
@@ -176,15 +178,11 @@ footer img {
     height: auto;
 }
 form {
-    width: 500px;
+    width: 460px;
     display: grid;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    border: 12px ridge var(--primary-color);
-    border-radius: 1rem;
-    background-color: var(--accent1-color);
-    box-sizing: border-box;
 }
 fieldset {
     display: grid;
@@ -230,4 +228,7 @@ button {
     margin-top: .5rem;
     margin-bottom: .25rem;
     max-width: 50%;
+    text-indent: 10%;
+    font-family: var(--paragraph-font);
+    font-size: large;
 }
