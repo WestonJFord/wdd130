@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Aoboshi+One&family=Darumadrop+One&family=Lora:wght@400;700&family=Sigmar&display=swap');
+
+body {
+    font-family: 'Lora';
+}
+form {
+    background-color: lightsalmon;
+    padding: 1rem;
+    max-width: fit-content;
+    margin: 1rem auto;
+    display: flex;
+    flex-flow: column;
+    gap: 1rem;
+}
+fieldset {
+    max-width: 400px;
+    display: flex;
+    flex-flow: column;
+}
+label {
+    padding-top: .5rem;
+}
+button {
+    font-family: 'Lora';
+    height: 4rem;
+    font-size: large;
+    background-color: aquamarine;
+    border: 10px ridge red;
+    border-radius: 10px;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px salmon;
+}
+button:hover {
+    background-color: aqua;
+}
