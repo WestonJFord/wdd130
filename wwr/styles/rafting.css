@@ -136,7 +136,7 @@ section, form {
     border: .5rem double var(--primary-color);
     border-radius: .8rem;
     background-color: #FBF001;
-    padding-bottom: 1rem;
+    padding: 1rem;
     margin: 1rem;
     box-sizing: border-box;
 }
@@ -160,14 +160,15 @@ footer img {
 form {
     width: 460px;
     display: grid;
-    margin: 0 auto;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* margin: 0 auto; */
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 fieldset {
     display: grid;
     gap: .5rem;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
 }
 legend {
     font-size: large;
@@ -191,7 +192,7 @@ textarea, input {
     color: var(--secondary-color);
     resize: none;
 }
-button, #call-to-action {
+button, .call-to-action {
     z-index: 10;
     padding: .25rem;
     margin: auto;
@@ -205,7 +206,7 @@ button, #call-to-action {
     border: .5rem ridge var(--primary-color);
     border-radius: .8rem;
 }
-#call-to-action {
+.call-to-action {
     position: absolute;
     left: 0;
     right: 0;
@@ -230,4 +231,52 @@ td.column1 {
 }
 tr.row1 {
     border-bottom: 3px solid var(--accent2-color);
+}
+#offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+}
+#offerings img{
+    max-width: 100%;
+    height: auto;
+}
+#newsletter-calltoaction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 1rem; */
+}
+#newsletter-calltoaction img {
+    max-width: 100%;
+    height: auto;
+}
+#newsletter label, #newsletter input {
+    /* max-height: 245px; */
+    font-size: large;
+}
+#contact-form {
+    margin: 1rem auto;
+}
+h2 {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+#call-section {
+    position: relative;
+}
+.call-small {
+    top: 80px;
+    border: 5px ridge var(--primary-color);
+    border-radius: 5px;
+    font-size: large;
+}
+#trips img {
+    max-width: 50%;
+    height: auto;
+}
+#trips img:nth-child(even) {
+    float: left;
+}
+#trips img:nth-child(odd) {
+    float: right;
 }
